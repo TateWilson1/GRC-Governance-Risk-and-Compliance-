@@ -1,31 +1,34 @@
-# GRC Risk Assessment
+# GRC Governance, Risk, and Compliance Assessment
 
-A governance, risk, and compliance portfolio project focused on converting technical security concerns into business-readable risk findings and remediation recommendations.
+A cybersecurity risk assessment portfolio project focused on turning technical findings into business-readable risk, remediation recommendations, and control-mapping notes.
 
-## Overview
+## Project Goal
 
-This project documents a structured cybersecurity risk assessment for a simulated business environment. The assessment identifies security gaps, vulnerabilities, and compliance risks, then prioritizes remediation based on likelihood and business impact.
+The goal of this project is to practice the kind of GRC writing that helps a team decide what to fix first. Instead of only listing vulnerabilities, the work connects each issue to likelihood, impact, ownership, compliance concerns, and a next action.
 
-## What This Demonstrates
+## Deliverables
 
-- Governance, risk, and compliance documentation
-- Risk likelihood and impact analysis
-- Remediation recommendation writing
-- Compliance-aware thinking for HIPAA, FERPA, and PCI DSS concerns
-- Clear communication of security issues for technical and non-technical audiences
+- Sample executive summary.
+- Risk register template with scoring fields.
+- Control-mapping notes for CIS Controls, NIST CSF, HIPAA, FERPA, and PCI DSS concepts.
+- Remediation-focused finding language.
 
-## Assessment Workflow
+## Sample Executive Summary
 
-1. Identify assets, business context, and likely security concerns.
-2. Document observed gaps and vulnerabilities.
-3. Map findings to applicable compliance or governance concerns.
-4. Score likelihood and impact to prioritize the risk register.
-5. Recommend controls, owners, and next steps.
+The simulated organization showed elevated risk from inconsistent access review, weak documentation, and limited evidence of control ownership. The recommended priority was to reduce identity and data-handling risk first because those gaps could affect regulated information, audit readiness, and incident response speed.
 
-## Portfolio Case Study
+## Sample Risk Register Row
 
-Read the case study on my portfolio: https://tatewilson1.github.io/case-grc-risk-assessment.html
+| Risk | Likelihood | Impact | Priority | Recommended Action |
+| --- | --- | --- | --- | --- |
+| Stale or excessive user access | Medium | High | High | Run quarterly access reviews, remove stale accounts, document owners, and validate privileged roles. |
 
-## Resume Bullet
+## What I Learned
 
-Conducted a structured cybersecurity risk assessment for a simulated business environment by identifying security gaps, compliance risks, likelihood, business impact, and remediation recommendations aligned with governance and risk management practices.
+- GRC work is strongest when findings are clear, evidence-based, and assigned to an owner.
+- Compliance frameworks are useful lenses, but the writing still needs to explain business impact.
+- Good recommendations should be specific enough to track and verify.
+
+## Related Portfolio Case Study
+
+https://tatewilson1.github.io/case-grc-risk-assessment.html
